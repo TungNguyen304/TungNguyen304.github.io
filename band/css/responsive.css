@@ -4,6 +4,25 @@
     mobile: <=740px 
 */
 
+/* mobile & tablet */
+@media (max-width: 1239px){
+    .mo-ta-padding-14{
+        padding: 14px;
+    }
+    .socials-list{
+        font-size: 48px;
+    }
+    .socials-list a{
+        margin: 0px 8px;
+    }
+    .contact-form .form-control{
+        padding: 14px;
+    }
+    .coppyright a{
+        padding: 12px 0px;
+        display: inline-block;
+    }
+}
 
 /* mobile */
 @media (max-width: 739px){
