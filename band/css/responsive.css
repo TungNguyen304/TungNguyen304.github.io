@@ -1,11 +1,10 @@
 /*
-    PC: >=1240px
-    tablet: >=740px & <=1239px
+    PC: >=1024px
+    tablet: >=740px & <=1023px
     mobile: <=739px 
 */
-
 /* mobile & tablet */
-@media (max-width: 1239px){
+@media (max-width: 63.9375em){
     .mo-ta-padding-14{
         padding: 14px;
     }
@@ -25,7 +24,7 @@
 }
 
 /* mobile */
-@media (max-width: 739px){
+@media (max-width: 46.1875em){
     /* common */
     .mobile-full-width,
     .mobile-column-full{

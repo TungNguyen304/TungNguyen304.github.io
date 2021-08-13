@@ -151,7 +151,7 @@ html{
 #slider {
     margin-top: 46px;
     padding-top: 50%;
-    background: url("https://www.w3schools.com/w3images/ny.jpg") no-repeat top center / cover;
+    background: url('../image/banner1.jpg') no-repeat top center / cover;
     position: relative;
 }
 #slider .text-content{
