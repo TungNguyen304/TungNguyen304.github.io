@@ -1,0 +1,131 @@
+body {
+    font-family: Tahoma;    /*loại chữ*/
+    font-size: 13px;
+    width:1000px;
+    margin:0px auto; /*căn giữa bố cục*/
+}
+
+#menu_top{
+    background:#141414;
+    height:40px;
+    color:#FFF;
+}
+
+#banner{
+    height:auto;
+    width:1000px;
+}
+
+#main #left{
+    width:700px;
+    float:left;     /* đưa thẻ div con qua bên trái*/
+    height: auto;
+}
+
+#main #right{
+    width:300px;
+    float: left;
+    height: 400px;
+}
+
+#footer img{
+    width:1000px;
+    height: auto;
+    /* text-align: center; */
+    /* margin: 0px auto; */
+}
+
+#menu_top ul{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#menu_top ul li{
+    list-style: none;       /*bỏ đi những kí tự list ở phía trước*/
+    float: left;
+    
+}
+
+#menu_top ul li a{
+    text-decoration: none;      /* bỏ dấu gạch chân dưới chữ */
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #FFF;
+    padding: 0px 20px 0px 20px;
+    border-right: 1px solid #ccc;
+}
+
+#menu_top ul li a.active{
+    background: #1949b5;
+}
+
+#banner img{
+    width:1000px;
+}
+
+#main #left ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main #left ul li{
+    list-style: none;
+    clear: left;        /*chữa lỗi chèn lên của float left*/
+    border-bottom: 2px solid #ccc;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#main #left ul li img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#main #left ul li h2{
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+#main{
+    margin-top: 10px;
+}
+
+#main #right .menu_right ul{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #ccc;
+}
+
+#main #right .menu_right ul li{
+    list-style: none;
+   
+}
+
+#main #right .menu_right ul li a{
+    display: block;
+    height: 45px;
+    line-height: 45px;      /*đặt bằng chiều cao của height*/
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+    background: url(../images/iconcheck.png) no-repeat 2px;
+    text-indent: 35px;      /*thụt đầu dòng*/
+    color: #848484;
+}
+
+#main #right .menu_right ul li a:hover{
+    color: green;
+}
+
+#main #right .menu_right h3{
+    background: #194d58 url(../images/iconmenu.png) no-repeat 3px;
+    height: 40px;
+    margin-top: 0px;
+    line-height: 40px;
+    color:#FFF;
+    text-indent: 35px;
+    margin-bottom: 0px;
+}
+
