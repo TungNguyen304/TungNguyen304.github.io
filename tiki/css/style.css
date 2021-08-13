@@ -1,0 +1,1020 @@
+html {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+.header{
+    width: 100%;
+    height: 104px;
+    background: rgb(26, 148, 255);
+}
+
+.header .top{
+    width: 1240px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.header .top .body{
+    width: 1240px;
+    height: 44px;
+    position: relative;
+    top: 18px;
+    display: flex;
+    justify-content: space-between;     /*căn đều khoảng cách bên trong*/
+}
+
+.header .top .body .logo{
+    width: 60px;
+    height: 40px;
+    padding-right: 50px;
+}
+
+.header .top .body .logo img{
+    width: 60px;
+    height: 40px;
+}
+
+.header .top .body .item a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin: auto;
+    min-height: 44px; 
+    align-items: center;
+}
+
+.header .top .body .item a img{
+    width: 32px;
+    height: 32px;
+    margin-right: 7px;
+}
+
+.header .top .body .item a .text{
+    font-size: 11px;
+}
+
+.header .top .body .item a .text .text-icon{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.header .top .body .item a .text .text-icon img{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 5px;
+    left: -4px;
+}
+
+.header .top .body .search{
+    width: 710px;
+    height: 44px;
+    display: flex;
+    margin-top: 2px;
+    margin-left: -7px;
+}
+
+.header .top .body .search input{
+    width: 587px;
+    height: 38px;
+    background: #fff;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    text-indent: 10px;
+    border-radius: 2px 0px 0px 2px;
+}
+
+.header .top .body .search button{
+    background: rgb(13, 92, 182);
+    width: 120px;
+    height: 40px;
+    color: white;
+    display: flex;      /*làm cho img vs text nằm cùng dòng*/
+    justify-content: center;        /*căn giữa chiều rộng*/
+    align-items: center;        /*căn giữa chiều cao*/
+    outline: none;
+    border: none;
+    border-radius: 0px 2px 2px 0px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.header .top .body .search button img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.header .top .body .login{
+    width: 160px;
+    height: 44px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .top .body .login img{
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+.header .top .body .login .text{
+    font-size: 11px;
+}
+
+.header .top .body .login .text-icon{
+    font-size: 13px;
+}
+
+.header .top .body .login .text-icon img{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 5px;
+    left: -4px;
+}
+
+.header .top .body .package{
+    width: 105px;
+    height: 44px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.header .top .body .package .icon img{
+    width: 32px;
+    height: 32px;
+    position: relative;
+    margin-right: 8px;
+    padding-left: 14px;
+}
+
+.header .top .body .package .icon .child-icon{
+    background: rgb(253, 216, 53);
+    height: 20px;
+    width: 21px;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 22px;
+    position: absolute;
+    top: 5px;
+    right: 50px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.header .top .body .package .text{
+    color: white;
+    font-size: 12px;
+    position: relative;
+    top: -4px;
+}
+
+.header .bottom{
+    height: 32px;
+    margin-top: 2px;
+}
+
+.header .bottom .mid{
+    width: 1240px;
+    height: 32px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .bottom .mid .left{
+    display: flex;
+    height: 32px;
+}
+
+.header .bottom .mid .left .list{
+    width: 460px;
+    margin-left: 165px;
+    text-align: left;
+}
+
+.header .bottom .mid .left .list ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header .bottom .mid .left .list ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header .bottom .mid .left .list ul li a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 11px;
+    color: white;
+}
+
+.header .bottom .mid .left img{
+    width: 83px;
+    height: 12px;
+}
+
+.header .bottom .mid .right{
+    height: 22px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.25);
+    align-items: center;
+    padding: 0px 8px;
+    border-radius: 10px;
+    margin-top: -3px;
+}
+
+.header .bottom .mid .right img{
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+}
+
+.header .bottom .mid .right .text{
+    font-size: 12px;
+    color: white;
+}
+
+.content{
+    width: 100%;
+    height: 4000px;
+    background :rgb(239, 239, 239);
+    /* background: yellow; */
+}
+
+.content .banner{
+    width: 1240px;
+    height: 274px;
+    margin: 0px auto;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .banner .main{
+    width: 825px;
+    height: 274px;
+}
+
+.content .banner .support{
+    width: 408px;
+    height: 274px;
+}
+
+.content .discount{
+    width: 1240px;
+    height: 352px;
+    margin: 0px auto;
+    background: white;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.content .discount .header{
+    width: 1210px;
+    height: 30px;
+    position: absolute;
+    margin: 15px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .discount .header .left img{
+    height: 28px;
+}
+
+.content .discount .header .right{
+    width: 125px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.content .discount .header .right div{
+    background-color: rgb(255, 66, 78);
+    font-size: 15px;
+    border-radius: 4px;
+    color: white;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.content .discount .header .left .animation{
+    animation: 0.8s linear 0s infinite normal none running autoeffect;
+}
+
+@keyframes autoeffect{
+    50%{
+        opacity: 0.3;
+        transform : scale(1.3);
+    }
+}
+
+.content .discount .header .right img{
+    height: 28px;
+    margin-top: -2px;
+}
+
+.content .discount .body{
+    width: 1240px;
+    height: 295px;
+    position: absolute;
+    margin-top: 60px;
+    display: flex;
+}
+
+.content .discount .deal-item{
+    width: 248px;
+    height: 295px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .discount .deal-item .detail{
+    width: 216px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .discount .deal-item .detail .top{
+    width: 192px;
+    height: 192px;
+    position: relative;
+}
+
+.content .discount .deal-item .detail .top div{
+    position: absolute;
+    top: 0px;
+    width: 38.6px;
+    height: 26px;
+    background-color: rgb(255, 66, 78);
+    color: white;
+    border-radius: 4px 0px 26px 0px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 26px;
+    text-indent: 2px;
+}
+
+.content .discount .deal-item .top .top-img{
+    width: 192px;
+    height: 192px;
+}
+
+.content .discount .deal-item .top .bottom-img{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.content .discount .deal-item .top .bottom-img{
+    width: 136px;
+    height: 24px;
+}
+
+.content .discount .deal-item .detail .price{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+    margin: 12px 0px 8px;
+}
+
+.content .discount .deal-item .detail .bottom{
+    background-color: rgb(255, 170, 175);
+    color: white;
+    border-radius: 10px;
+    height: 20px;
+    width: 216px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.content .discount .deal-item .detail .bottom .sell{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 66, 78);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.content .discount .deal-item .detail .bottom .sold{
+    width: 60px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 66, 78);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.content .list{
+    width: 1240px;
+    height: 132px;
+    margin: 0px auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.content .list .body{
+    width: 1240px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .list .body .funtion{
+    width: 103px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content .list .body .funtion div{
+    font-size: 13px;
+    color: rgb(36, 36, 36);
+    width: 81px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.content .list .body .funtion img{
+    width: 48px;
+    height: 48px;
+}
+
+.content .card-blue{
+    width: 1240px;
+    height: 150px;
+    margin: 0px auto 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .card-blue .body{
+    width: 295px;
+    height: 150px;
+}
+
+.content .card-blue .body img{
+    border-radius: 20px;
+}
+
+.content .featured{
+    width: 1240px;
+    height: 330px;
+    background: white;
+    position: relative;
+    margin: 0px auto 15px;
+}
+
+.content .featured .header{
+   font-size: 20px;
+   width: 1208px;
+   height: 28px;
+   position: absolute;
+   margin: 10px 16px 10px 16px;
+   line-height: 30px;
+   background: white;
+}
+
+.content .featured .bottom{
+    width: 1240px;
+    height: 282px;
+    position: absolute;
+    margin-top: 48px;
+}
+
+.content .featured .bottom .body{
+    width: 1240px;
+    height: 282px;
+    display: grid;
+    grid-template-columns: 116.8px 116.8px 116.8px 116.8px 116.8px 116.8px 116.8px 116.8px 116.8px 116.8px;
+    grid-template-rows: 128px 128px;
+    gap: 12px 8px;      /*khoảng cách giữa các hàng là 12px và cột là 8px*/
+    position: relative;
+}
+
+.content .featured .bottom .body .item{
+    width: 116.8px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.content .featured .bottom .body .item .image{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.content .featured .bottom .body .item .image img{
+    width: 60px;
+    height: 60px;   
+    border-radius: 20px;
+}
+
+.content .featured .bottom .body .item .text{
+    padding: 0px 12px;
+    margin: 12px 0px 16px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.content .search{
+    width: 1240px;
+    height: 238px;
+    margin: 0px auto 15px;
+    background: white;
+    position: relative;
+}
+
+.content .search .body{
+    height: 213px;
+    width: 1210px;
+    position: absolute;
+    margin: 10px 15px 15px;
+}
+
+.content .search .body .header{
+    width: 1210px;
+    height: 28px;
+    margin: 10px 0px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .search .body .header .left{
+    width: 190px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .search .body .header .left img{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.content .search .body .header .left div{
+    font-size: 20px;
+}
+
+.content .search .body .header .right{
+    width: 103px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .search .body .header .right img{
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.content .search .body .header .right div{
+    font-size: 15px;
+    color: rgb(13, 92, 182);
+}
+
+.content .search .body .bottom{
+    width: 1210px;
+    height: 164px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .search .body .bottom .item{
+    width: 290px;
+    height: 164px;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 8px;
+}
+
+.content .search .body .bottom .item .image{
+    width: 274px;
+    height: 86px;
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .search .body .bottom .item .image img{
+    width: 86px;
+    height: 86px;
+}
+
+.content .search .body .bottom .text{
+    width: 264px;
+    height: 44px;
+    padding: 8px 12px;
+    background-color: rgb(255, 241, 241);
+    /* background: red; */
+    position: relative;
+}
+
+.content .search .body .bottom .text #special{
+    width: 264px;
+    height: 44px;
+    padding: 8px 12px;
+    background-color: rgb(211, 238, 255);
+    /* background: blue; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.content .search .body .bottom .text .title{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.content .search .body .bottom .text .sub-title{
+    font-size: 13px;
+    color: rgb(120, 120, 120);
+}
+
+.content .card-pink{
+    width: 1240px;
+    height: 150px;
+    margin: 0px auto 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .card-pink .body{
+    width: 394px;
+    height: 150px;
+}
+
+.content .card-pink .body img{
+    border-radius: 20px;
+}
+
+.content .suggest{
+    width: 1240px;
+    height: 2210px;
+    margin: 0px auto 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.content .suggest .header{
+    width: 1240px;
+    height: 140px;
+    background: rgb(244, 244, 244);
+    position: relative;
+    border-radius: 4px 4px 0px 0px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+.content .suggest .header .title{
+    height: 28px;
+    width: 1208px;
+    position: absolute;
+    padding: 10px 16px;
+    font-size: 20px;
+    border-radius: 4px;
+    background: white;
+    line-height: 28px;
+    margin-bottom: 4px;
+}
+
+.content .suggest .header .menu{
+    width: 1240px;
+    height: 84px;
+    position: absolute;
+    bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .suggest .header .menu .tab{
+    width: 151.5px;
+    height: 84px;
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .suggest .header .menu .tab img{
+    width: 48px;
+    height: 48px;
+    margin-top: 5px;
+}
+
+.content .suggest .header .menu .tab .sub-title{
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.content .suggest .header .menu .tab .special{
+    width: 151.5px;
+    height: 84px;
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(13, 92, 182);
+    box-sizing: border-box;
+    color: rgb(13, 92, 182);
+}
+
+.content .suggest .bottom{
+    width: 1240px;
+    height: 2000px;
+    display: grid;
+    grid-template-columns: 248px 248px 248px 248px 248px;
+    grid-template-rows: 332px 332px 332px 332px 332px 332px;
+    gap: 0px;
+}
+
+.content .suggest .bottom .item{
+    width: 248px;
+    height: 332px;
+}
+
+.content .suggest .bottom .item .image{
+    width: 200px;
+    height: 200px;
+    margin: 12px auto;
+    position: relative;
+}
+
+.content .suggest .bottom .item .image .big-img{
+    width: 200px;
+    height: 200px;
+
+}
+
+.content .suggest .bottom .item .image div .small-img{
+    width: 136px;
+    height: 24px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.content .suggest .bottom .item .text{
+    width: 224px;
+    height: 94px;
+    margin-left: 23px;
+}
+
+.content .suggest .bottom .item .text .name{
+    font-size: 13px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.content .suggest .bottom .item .text .evaluate{
+    width: 224px;
+    height: 14px;
+    display: flex;
+    position: relative;
+    margin-top: 4px;
+}
+
+.content .suggest .bottom .item .text .evaluate .image{
+    width: 50px;
+    height: 10px;
+    display: flex;
+    position: absolute;
+    margin-top: 2px;
+}
+
+.content .suggest .bottom .item .text .evaluate .image img{
+    width: 10px;
+    height: 10px;
+}
+
+.content .suggest .bottom .item .text .evaluate .sold{
+    position: absolute;
+    margin-left: 80px;
+    color: rgb(120, 120, 120);
+    font-size: 11px;
+    padding-left: 7px;
+    border-left: 1px solid rgb(199, 199, 199);
+    line-height: 18px;
+}
+
+.content .suggest .bottom .item .text .cost{
+    width: 224px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.content .suggest .bottom .item .text .cost .price{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.content .suggest .bottom .item .text .cost .sale{
+    width: 32px;
+    height: 24px;
+    background: rgb(255, 66, 78);
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: center;
+}
+
+.content .suggest .bottom .item .text img{
+    width: 124px;
+    height: 18px;
+}
+
+.content .suggest .tail{
+    width: 240px;
+    height: 32px;
+    font-size: 13px;
+    border: 1px solid rgb(13, 92, 182);
+    color: rgb(13, 92, 182);
+    border-radius: 4px;
+    margin: auto;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.content .suggest .tail:hover{
+    background: rgb(13, 92, 182);
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    height: 595px;
+}
+
+.footer .top{
+    width: 1240px;
+    height: 297px;
+    margin: 0px auto;
+    padding: 40px 0px;
+    position: relative;
+}
+
+.footer .top .body{
+    width: 1240px;
+    height: 297px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .top .body .item{
+    width: 226px;
+    height: 297px;
+}
+
+.footer .top .body .item .title{
+    margin: 0px 0px 17px;
+    font-size: 13px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
+
+.footer .top .body .item .hotline{
+    color: rgb(196, 1, 26);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.footer .top .body .item .price{
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    margin-bottom: 11px;
+}
+
+.footer .top .body .item .funtion div{
+    margin-bottom: 11px;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+}
+
+.footer .top .body .item .payment img{
+    width: 54px;
+    margin-right: 7px;
+    margin-bottom: 4px;
+}
+
+.footer .top .body .item .face-you-za{
+    width: 226px;
+    height: 46px;
+    margin-bottom: 35px;
+}
+
+.footer .top .body .item .face-you-za a{
+    text-decoration: none;
+    position: relative;
+}
+
+.footer .top .body .item .face-you-za .zalo img{
+    width: 27px;
+    height: 25.2px;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 15px;
+}
+
+.footer .top .body .item .ap-go img{
+    width: 134px;
+    height: 43.2px;
+}
+
+.footer .mid{
+    width: 1240px;
+    height: 67px;
+    margin: 0px auto;
+    padding: 40px 0px;
+}
+
+.footer .mid .address{
+    font-size: 12px;
+    width: 492px;
+    height: 66.8px;
+    margin-left: 20px;
+    color: rgb(51, 51, 51);
+}
+
+.footer .bottom{
+    width: 1240px;
+    height: 50px;
+    margin: 15px auto 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .bottom .left{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.footer .bottom .left div{
+    font-weight: bold;
+}
+
+.footer .bottom .left p{
+    margin-top: 0px;
+}
+
+.footer .bottom .right{
+    width: 226px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+}
+
+.footer .bottom .right .small{
+    width: 36px;
+    height: 36px;
+}
+
+.footer .bottom .right .big{
+    width: 120px;
+    height: 46px;
+}
