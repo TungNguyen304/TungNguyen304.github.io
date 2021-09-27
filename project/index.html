@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/grid.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="shortcut icon" href="//bizweb.dktcdn.net/100/047/633/themes/814480/assets/favicon.png?1620961687291">
+    <title>DKT Store</title>
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="wrap-header-top">
+                <div class="grid wide">
+                    <div class="header-top">
+                        <ul class="header-top__list">
+                            <li class="header-top__item">
+                                <i class="fas fa-phone"></i>
+                                (04) 6674 2332
+                            </li>
+                            <li class="header-top__item">
+                                <i class="far fa-envelope"></i>
+                                aventteam@gmail.com
+                            </li>
+                        </ul>
+                        <ul class="header-top__list">
+                            <li class="header-top__item">
+                                <i class="fas fa-user"></i>
+                                Đăng nhập
+                            </li>
+                            <li class="header-top__item header-top__item--special">
+                                <i class="fas fa-user-plus"></i>
+                                Đăng ký
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-3 m-12 c-12">
+                            <div class="header-bottom-logo">
+                                <a href="" class="header-bottom-logo__img">
+                                    <img src="image/logo.webp" alt="">
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="col l-6 m-12 c-12">
+                            <div class="header-bottom-search">
+                                <input type="text" class="header-bottom-search__input" placeholder="Nhập từ khóa tìm kiếm...">
+                                <a href="" class="header-bottom-search__icon">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="col l-3 m-12 c-12">
+                            <div class="header-bottom-cart">
+                                <a href="" class="header-bottom-cart__icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </a>
+                                <div class="header-bottom-cart__quantity arrow-down">
+                                    0 sản phẩm
+                                    <i class="fas fa-sort-down"></i>
+                                </div>
+
+                                <div class="header-bottom-cart__table">
+                                    <span>Không có sản phẩm trong giỏ hàng</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrap-navbar">
+                <div class="grid wide">
+                    <div class="navbar">
+                        <ul class="navbar-list">
+                            <li class="navbar-list-item navbar-list-item--active">TRANG CHỦ</li>
+                            <li class="navbar-list-item">GIỚI THIỆU</li>
+                            <li class="navbar-list-item navbar-list-item--special">
+                                SẢN PHẨM
+                                <i class="fas fa-sort-down"></i>
+
+                                <div class="product-type">
+                                    <ul class="product-type-list">
+                                        <li class="product-type-item">Sản phẩm nổi bật</li>
+                                        <li class="product-type-item">Sản phẩm khuyến mãi</li>
+                                        <li class="product-type-item">Điện thoại di động</li>
+                                        <li class="product-type-item">Laptop</li>
+                                        <li class="product-type-item">Tivi</li>
+                                        <li class="product-type-item">Tai nghe</li>
+                                        <li class="product-type-item">Âm thanh</li>
+                                        <li class="product-type-item">Máy văn phòng</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="navbar-list-item">TIN TỨC</li>
+                            <li class="navbar-list-item">LIÊN HỆ</li>
+                        </ul>
+                    </div>
+
+                    <div class="menu">
+                        <div class="menu-body">
+                            <div class="menu-title">MENU</div>
+                            <div class="menu-icon" onclick="menu()">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                        </div>
+                        
+                        <ul class="menu-list">
+                            <li class="menu-item">Trang chủ</li>
+                            <li class="menu-item">Giới thiệu</li>
+                            <li class="menu-item">Sản phẩm</li>
+                            <li class="menu-item">Tin tức</li>
+                            <li class="menu-item">Liên hệ</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="content">
+            
+
+            <div class="grid wide">
+                <div class="advertise">
+                    <div class="row">
+                        <div class="col l-3 m-0">
+                            <div class="category">
+                                <h2 class="category-title">
+                                    <i class="fas fa-bars"></i>
+                                    DANH MỤC SẢN PHẨM
+                                </h2>
+                                <ul class="category-list">
+                                    <li class="category-item">Sản phẩm nổi bật</li>
+                                    <li class="category-item">Sản phẩm khuyến mãi</li>
+                                    <li class="category-item">Điện thoại di động</li>
+                                    <li class="category-item">Laptop</li>
+                                    <li class="category-item">Tivi</li>
+                                    <li class="category-item">Tai nghe</li>
+                                    <li class="category-item">Âm thanh</li>
+                                    <li class="category-item">Máy văn phòng</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col l-9 m-12 c-12">
+                            <div class="banner">
+                                <img src="/image/banner.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid wide">
+                <div class="main-content">
+                    <div class="row">
+                        <div class="col l-3 m-12 c-12">
+                            <div class="support">
+                                <h2 class="support-title">
+                                    HỖ TRỰC TỰC TUYẾN
+                                </h2>
+                                <ul class="support-list">
+                                    <li class="support-item">
+                                        <div class="support-item-img">
+                                            <img src="/image/call.webp" alt="">
+                                        </div>
+
+                                        <div class="support-item-text">
+                                            <div>Tư vấn bán hàng 1</div>
+                                            <div>Mrs. Dung: <a href="">(04) 3768 8904</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="support-item">
+                                        <div class="support-item-img">
+                                            <img src="/image/call.webp" alt="">
+                                        </div>
+
+                                        <div class="support-item-text">
+                                            <div>Tư vấn bán hàng 2</div>
+                                            <div>Mrs. Tung: <a href="">(04) 3768 8904</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="support-item">
+                                        <div class="support-item-img">
+                                            <img src="/image/email.webp" alt="">
+                                        </div>
+
+                                        <div class="support-item-text">
+                                            <div>Email liên hệ</div>
+                                            <div><a href="">support@bizweb.vn</a></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="sub-news">
+                                <div class="sub-news-top">
+                                    <div class="sub-news-top__title sub-news-top__title--bt">
+                                        TIN TỨC
+                                    </div>
+                                    <div class="sub-news-top__move">
+                                        <div class="sub-news-top__icon" onclick="previous()">
+                                            <i class="fas fa-caret-left"></i>
+                                        </div>
+                                        <div class="sub-news-top__icon" onclick="next()">
+                                            <i class="fas fa-caret-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="slide-sub-news-bottom">
+                                    <div class="sub-news-bottom">
+                                        <img class="sub-news-bottom__img" src="/image/news1.png" alt="">
+                                        <h3 class="sub-news-bottom__title">Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?</h3>
+                                        <p class="sub-news-bottom__time">11/01/2016</p>
+                                        <p class="sub-news-bottom__descripton">Không ai có thể phủ nhận sức hút từ vẻ đẹp của những chiếc điện thoại của hãng Apple. Đặc biệt hơn, khi mà ở thời điểm hiện tại, giá iPhone 6s và iPhone 6s Plus đang giảm và dần dần trở nên vừa vặn với túi tiền của...</p>
+                                    </div>
+                                    <div class="sub-news-bottom">
+                                        <img class="sub-news-bottom__img" src="/image/news2.jpg" alt="">
+                                        <h3 class="sub-news-bottom__title">LG ra mắt loạt TV OLED 4K tích hợp HDR tại CES 2016</h3>
+                                        <p class="sub-news-bottom__time">08/01/2016</p>
+                                        <p class="sub-news-bottom__descripton"> LG vừa giới thiệu loạt TV OLED 4K mới tại Triển lãm CES 2016, trong đó tiêu biểu là 2 mẫu TV LG OLED 77/65-inch G6 và 65/55-inch E6 có tích hợp tính năng HDR. Theo đó, 8 mẫu TV OLED 2016 đều được tích hợp những công...</p>
+                                    </div>
+                                    <div class="sub-news-bottom">
+                                        <img class="sub-news-bottom__img" src="/image/news3.jpg" alt="">
+                                        <h3 class="sub-news-bottom__title">MSI ra mắt loạt máy tính "khủng" tại CES 2016</h3>
+                                        <p class="sub-news-bottom__time">08/01/2016</p>
+                                        <p class="sub-news-bottom__descripton"> Tại triển lãm CES năm nay, MSI đã cho ra mắt loạt sản phẩm máy tính mới dành cho game thủ và giới thiết kế với nhiều nâng cấp mạnh về cấu hình, công nghệ. Theo TechReport, loạt máy tính mới của MSI trình làng tại CES gồm...</p>
+                                    </div>
+                                    <div class="sub-news-bottom">
+                                        <img class="sub-news-bottom__img" src="/image/news4.jpg" alt="">
+                                        <h3 class="sub-news-bottom__title">Lenovo ra mắt Y70 Touch giá gần 35 triệu đồng</h3>
+                                        <p class="sub-news-bottom__time">08/01/2016</p>
+                                        <p class="sub-news-bottom__descripton"> Về thiết kế, Lenovo Y70 Touch trang bị bàn phím backlit, màn hình cảm ứng 17 inch cùng công nghệ nhận dạng khuôn mặt VeriFace Pro. Cổng HDMI-out để truyền dẫn nội dung chất lượng cao tới màn hình lớn hơn, đồng thời tích hợp chuẩn Wi-Fi mới nhất....</p>
+                                    </div>
+                                    <div class="sub-news-bottom">
+                                        <img class="sub-news-bottom__img" src="/image/news5.jpg" alt="">
+                                        <h3 class="sub-news-bottom__title">Trải nghiệm dòng tai nghe H.ear mới của Sony</h3>
+                                        <p class="sub-news-bottom__time">08/01/2016</p>
+                                        <p class="sub-news-bottom__descripton"> Dòng sản phẩm mới này của Sony mang 1 slogan mới của hãng là "Hear Your Color", tức là Sony muốn đem những gam màu rực rỡ lên các sản phẩm được gắn mác "Hi-res", vốn là các sản phẩm hỗ trợ âm thanh có độ phân giải cao....</p>
+                                    </div>
+                                    <div class="sub-news-bottom">
+                                        <img class="sub-news-bottom__img" src="/image/news6.jpg" alt="">
+                                        <h3 class="sub-news-bottom__title">iPhone 7 sẽ lại là một bước "cải lùi" về thiết kế của Apple</h3>
+                                        <p class="sub-news-bottom__time">08/01/2016</p>
+                                        <p class="sub-news-bottom__descripton"> Không còn jack cắm tai nghe 3,5 mm trên iPhone là một phần trong nỗ lực "nhốt" người dùng trong thế giới của riêng mình đến từ Apple. 
+                                            Vài năm trở lại đây, các tin đồn về iPhone thường tỏ ra khá chính xác. Thực tế này không khỏi...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-9 m-12 c-12">
+                            <div class="product">
+                                <div class="product-top">
+                                    <div class="product-top-category">
+                                        <div class="product-top-category__title">
+                                            SẢN PHẨM HOT
+                                        </div>
+                                        <ul class="product-top-category__list">
+                                            <li class="product-top-category__item product-top-category__item--active">SẢN PHẨM NỔI BẬT</li>
+                                            <li class="product-top-category__item">SẢN PHẨM KHUYẾN MÃI</li>
+                                            <li class="product-top-category__item">ĐIỆN THOẠI DI ĐỘNG</li>
+                                            <li class="product-top-category__item">LAPTOP</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="product-top-list">
+                                        <div class="row">
+                                            <div class="col l-3 m-6 c-6">
+                                                <div class="product-top-item">
+                                                    <div class="product-top-item__wrap">
+                                                        <img class="product-top-item__img" src="//bizweb.dktcdn.net/thumb/medium/100/047/633/products/66s.jpg?v=1469341370363" alt="">
+                                                        <div class="product-top-item__btn product-top-item__btn--special">
+                                                            <span>
+                                                                XEM NHANH
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-top-item__name">APPLE IPHONE 6S PLUS ROSE GOLD 128GB</div>
+                                                    <div class="product-top-item__price">27.490.000₫</div>
+                                                    <div class="product-top-item__btn">
+                                                        <span>CHỌN SẢN PHẨM</span>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col l-3 m-6 c-6">
+                                                <div class="product-top-item">
+                                                    <div class="product-top-item__wrap">
+                                                        <img class="product-top-item__img" src="//bizweb.dktcdn.net/thumb/medium/100/047/633/products/micro.jpg?v=1469340501493" alt="">
+                                                        <div class="product-top-item__btn product-top-item__btn--special">
+                                                            <span>
+                                                                XEM NHANH
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-top-item__name">TAI NGHE MICROLAB K310000</div>
+                                                    <div class="product-top-item__price">Liên hệ</div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col l-3 m-6 c-6">
+                                                <div class="product-top-item">
+                                                    <div class="product-top-item__wrap">
+                                                        <img class="product-top-item__img" src="//bizweb.dktcdn.net/thumb/medium/100/047/633/products/samsung-sl-m2020.jpg?v=1469341316387" alt="">
+                                                        <div class="product-top-item__btn product-top-item__btn--special">
+                                                            <span>
+                                                                XEM NHANH
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-top-item__name">MÁY IN SAMSUNG SL-M202</div>
+                                                    <div class="product-top-item__price">1.340.000₫</div>
+                                                    <div class="product-top-item__btn">
+                                                        <span>MUA HÀNG</span>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col l-3 m-6 c-6">
+                                                <div class="product-top-item">
+                                                    <div class="product-top-item__wrap">
+                                                        <img class="product-top-item__img" src="//bizweb.dktcdn.net/thumb/medium/100/047/633/products/msc.jpg?v=1469340617533" alt="">
+                                                        <div class="product-top-item__btn product-top-item__btn--special">
+                                                            <span>
+                                                                XEM NHANH
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-top-item__name">MICROSOFT LUMIA 950 XL</div>
+                                                    <div class="product-top-item__price">15.990.000₫</div>
+                                                    <div class="product-top-item__btn">
+                                                        <span>CHỌN SẢN PHẨM</span>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-bottom">
+                                    <div class="product-bottom-category">
+                                        <ul class="product-bottom-category__list">
+                                            <li class="product-bottom-category__item product-bottom-category__item--active">SẢN PHẨM NỔI BẬT</li>
+                                            <li class="product-bottom-category__item">SẢN PHẨM KHUYẾN MÃI</li>
+                                            <li class="product-bottom-category__item">ĐIỆN THOẠI DI ĐỘNG</li>
+                                            <li class="product-bottom-category__item">LAPTOP</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="product-top-list">
+                                        <div class="row">
+                                            <div class="col l-3 m-6 c-6">
+                                                <div class="product-top-item">
+                                                    <div class="product-top-item__wrap">
+                                                        <img class="product-top-item__img" src="//bizweb.dktcdn.net/thumb/medium/100/047/633/products/66s.jpg?v=1469341370363" alt="">
+                                                        <div class="product-top-item__btn product-top-item__btn--special">
+                                                            <span>
+                                                                XEM NHANH
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-top-item__name">APPLE IPHONE 6S PLUS ROSE GOLD 128GB</div>
+                                                    <div class="product-top-item__price">27.490.000₫</div>
+                                                    <div class="product-top-item__btn">
+                                                        <span>CHỌN SẢN PHẨM</span>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col l-3 m-6 c-6">
+                                                <div class="product-top-item">
+                                                    <div class="product-top-item__wrap">
+                                                        <img class="product-top-item__img" src="//bizweb.dktcdn.net/thumb/medium/100/047/633/products/micro.jpg?v=1469340501493" alt="">
+                                                        <div class="product-top-item__btn product-top-item__btn--special">
+                                                            <span>
+                                                                XEM NHANH
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-top-item__name">TAI NGHE MICROLAB K310000</div>
+                                                    <div class="product-top-item__price">Liên hệ</div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col l-3 m-6 c-6">
+                                                <div class="product-top-item">
+                                                    <div class="product-top-item__wrap">
+                                                        <img class="product-top-item__img" src="//bizweb.dktcdn.net/thumb/medium/100/047/633/products/samsung-sl-m2020.jpg?v=1469341316387" alt="">
+                                                        <div class="product-top-item__btn product-top-item__btn--special">
+                                                            <span>
+                                                                XEM NHANH
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-top-item__name">MÁY IN SAMSUNG SL-M202</div>
+                                                    <div class="product-top-item__price">1.340.000₫</div>
+                                                    <div class="product-top-item__btn">
+                                                        <span>MUA HÀNG</span>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col l-3 m-6 c-6">
+                                                <div class="product-top-item">
+                                                    <div class="product-top-item__wrap">
+                                                        <img class="product-top-item__img" src="//bizweb.dktcdn.net/thumb/medium/100/047/633/products/msc.jpg?v=1469340617533" alt="">
+                                                        <div class="product-top-item__btn product-top-item__btn--special">
+                                                            <span>
+                                                                XEM NHANH
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-top-item__name">MICROSOFT LUMIA 950 XL</div>
+                                                    <div class="product-top-item__price">15.990.000₫</div>
+                                                    <div class="product-top-item__btn">
+                                                        <span>CHỌN SẢN PHẨM</span>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-top-list">
+                                        <div class="row">
+                                            <div class="col l-3 m-6 c-6">
+                                                <div class="product-top-item">
+                                                    <div class="product-top-item__wrap">
+                                                        <img class="product-top-item__img" src="//bizweb.dktcdn.net/thumb/medium/100/047/633/products/s6blak.jpg?v=1469340637197" alt="">
+                                                        <div class="product-top-item__btn product-top-item__btn--special">
+                                                            <span>
+                                                                XEM NHANH
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-top-item__name">SAMSUNG GALAXY NOTE 5 SM-N920C</div>
+                                                    <div class="product-top-item__price">17.990.000₫</div>
+                                                    <div class="product-top-item__btn">
+                                                        <span>MUA HÀNG</span>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col l-3 m-6 c-6">
+                                                <div class="product-top-item">
+                                                    <div class="product-top-item__wrap">
+                                                        <img class="product-top-item__img" src="//bizweb.dktcdn.net/thumb/medium/100/047/633/products/tiviled.jpg?v=1469342806553" alt="">
+                                                        <div class="product-top-item__btn product-top-item__btn--special">
+                                                            <span>
+                                                                XEM NHANH
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-top-item__name">TIVI LED HD PANASONIC TH-32C410V</div>
+                                                    <div class="product-top-item__price">
+                                                        5.400.000₫
+                                                        <span>5.500.000₫</span>
+                                                    </div>
+                                                    <div class="product-top-item__btn">
+                                                        <span>MUA HÀNG</span>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col l-3 m-6 c-6">
+                                                <div class="product-top-item">
+                                                    <div class="product-top-item__wrap">
+                                                        <img class="product-top-item__img" src="//bizweb.dktcdn.net/thumb/medium/100/047/633/products/ledsam.jpg?v=1469342455003" alt="">
+                                                        <div class="product-top-item__btn product-top-item__btn--special">
+                                                            <span>
+                                                                XEM NHANH
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-top-item__name">TIVI LED SAMSUNG UA55J6200AKXXV</div>
+                                                    <div class="product-top-item__price">
+                                                        25.000.000₫
+                                                        <span>27.000.000₫</span>
+                                                    </div>
+                                                    <div class="product-top-item__btn">
+                                                        <span>MUA HÀNG</span>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                            <div class="col l-3 m-6 c-6">
+                                                <div class="product-top-item">
+                                                    <div class="product-top-item__wrap">
+                                                        <img class="product-top-item__img" src="//bizweb.dktcdn.net/thumb/medium/100/047/633/products/lcdsony.jpg?v=1469342389623" alt="">
+                                                        <div class="product-top-item__btn product-top-item__btn--special">
+                                                            <span>
+                                                                XEM NHANH
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-top-item__name">TIVI LCD SONY KD-65S8500C VN3</div>
+                                                    <div class="product-top-item__price">
+                                                        69.890.000₫
+                                                        <span>69.990.000₫</span>
+                                                    </div>
+                                                    <div class="product-top-item__btn">
+                                                        <span>MUA HÀNG</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid wide">
+                <div class="sub-banner">
+                    <img src="/image/sub-banner.webp" alt="">
+                </div>
+            </div>
+
+            <div class="grid wide">
+                <div class="news">
+                    <div class="news-top">
+                        <div class="news-top__title news-top__title--bt">
+                            TIN TỨC
+                        </div>
+                        <div class="news-top__move">
+                            <div class="news-top__icon" onclick="previous1()">
+                                <i class="fas fa-caret-left"></i>
+                            </div>
+                            <div class="news-top__icon" onclick="next1()">
+                                <i class="fas fa-caret-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="slide-news-bottom">
+                            <div class="col l-3 m-6 c-12">
+                                <div class="news-bottom">
+                                    <img class="news-bottom__img" src="/image/news1.png" alt="">
+                                    <h3 class="news-bottom__title">Mua iPhone 6s và iPhone 6s Plus chính hãng ở đâu?</h3>
+                                    <p class="news-bottom__time">11/01/2016</p>
+                                    <p class="news-bottom__descripton">Không ai có thể phủ nhận sức hút từ vẻ đẹp của những chiếc điện thoại của hãng Apple. Đặc biệt hơn, khi mà ở thời điểm hiện tại, giá iPhone 6s và iPhone 6s Plus đang giảm và dần dần trở nên vừa vặn với túi tiền của...</p>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-6 c-12">
+                                <div class="news-bottom">
+                                    <img class="news-bottom__img" src="/image/news2.jpg" alt="">
+                                    <h3 class="news-bottom__title">LG ra mắt loạt TV OLED 4K tích hợp HDR tại CES 2016</h3>
+                                    <p class="news-bottom__time">08/01/2016</p>
+                                    <p class="news-bottom__descripton"> LG vừa giới thiệu loạt TV OLED 4K mới tại Triển lãm CES 2016, trong đó tiêu biểu là 2 mẫu TV LG OLED 77/65-inch G6 và 65/55-inch E6 có tích hợp tính năng HDR. Theo đó, 8 mẫu TV OLED 2016 đều được tích hợp những công...</p>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-6 c-12">
+                                <div class="news-bottom">
+                                    <img class="news-bottom__img" src="/image/news3.jpg" alt="">
+                                    <h3 class="news-bottom__title">MSI ra mắt loạt máy tính "khủng" tại CES 2016</h3>
+                                    <p class="news-bottom__time">08/01/2016</p>
+                                    <p class="news-bottom__descripton"> Tại triển lãm CES năm nay, MSI đã cho ra mắt loạt sản phẩm máy tính mới dành cho game thủ và giới thiết kế với nhiều nâng cấp mạnh về cấu hình, công nghệ. Theo TechReport, loạt máy tính mới của MSI trình làng tại CES gồm...</p>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-6 c-12">
+                                <div class="news-bottom">
+                                    <img class="news-bottom__img" src="/image/news4.jpg" alt="">
+                                    <h3 class="news-bottom__title">Lenovo ra mắt Y70 Touch giá gần 35 triệu đồng</h3>
+                                    <p class="news-bottom__time">08/01/2016</p>
+                                    <p class="news-bottom__descripton"> Về thiết kế, Lenovo Y70 Touch trang bị bàn phím backlit, màn hình cảm ứng 17 inch cùng công nghệ nhận dạng khuôn mặt VeriFace Pro. Cổng HDMI-out để truyền dẫn nội dung chất lượng cao tới màn hình lớn hơn, đồng thời tích hợp chuẩn Wi-Fi mới nhất....</p>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-6 c-12">
+                                <div class="news-bottom">
+                                    <img class="news-bottom__img" src="/image/news5.jpg" alt="">
+                                    <h3 class="news-bottom__title">Trải nghiệm dòng tai nghe H.ear mới của Sony</h3>
+                                    <p class="news-bottom__time">08/01/2016</p>
+                                    <p class="news-bottom__descripton"> Dòng sản phẩm mới này của Sony mang 1 slogan mới của hãng là "Hear Your Color", tức là Sony muốn đem những gam màu rực rỡ lên các sản phẩm được gắn mác "Hi-res", vốn là các sản phẩm hỗ trợ âm thanh có độ phân giải cao....</p>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-6 c-12">
+                                <div class="news-bottom">
+                                    <img class="news-bottom__img" src="/image/news6.jpg" alt="">
+                                    <h3 class="news-bottom__title">iPhone 7 sẽ lại là một bước "cải lùi" về thiết kế của Apple</h3>
+                                    <p class="news-bottom__time">08/01/2016</p>
+                                    <p class="news-bottom__descripton"> Không còn jack cắm tai nghe 3,5 mm trên iPhone là một phần trong nỗ lực "nhốt" người dùng trong thế giới của riêng mình đến từ Apple. 
+                                        Vài năm trở lại đây, các tin đồn về iPhone thường tỏ ra khá chính xác. Thực tế này không khỏi...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-4 m-12 c-12">
+                            <div class="service-item">
+                                <div class="service-item__logo">
+                                    <img src="//bizweb.dktcdn.net/100/047/633/themes/814480/assets/ico-service-1.png?1620961687291" alt="">
+                                </div>
+                                <div class="service-item__text">
+                                    <h3 class="service-item__name">
+                                        Giao hàng miễn phí
+                                    </h3>
+                                    <p class="service-item__description">
+                                        Miễn phí giao hàng trong nội thành Hà Nội
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div class="service-item">
+                                <div class="service-item__logo">
+                                    <img src="//bizweb.dktcdn.net/100/047/633/themes/814480/assets/ico-service-2.png?1620961687291" alt="">
+                                </div>
+                                <div class="service-item__text">
+                                    <h3 class="service-item__name">
+                                        Khuyến mại
+                                    </h3>
+                                    <p class="service-item__description">
+                                        Khuyến mại sản phẩm nếu đơn hàng trên 1.000.000đ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-12 c-12">
+                            <div class="service-item">
+                                <div class="service-item__logo">
+                                    <img src="//bizweb.dktcdn.net/100/047/633/themes/814480/assets/ico-service-3.png?1620961687291" alt="">
+                                </div>
+                                <div class="service-item__text">
+                                    <h3 class="service-item__name">
+                                        Hoàn trả lại tiền
+                                    </h3>
+                                    <p class="service-item__description">
+                                        Nếu sản phẩm không đảm bảo chất lượng hoặc sản phẩm không đúng miêu tả
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="grid wide">
+                    <div class="introduce">
+                        <div class="row">
+                            <div class="col l-3 m-3 c-6">
+                                <div class="introduce-title">
+                                    Về chúng tôi
+                                </div>
+                                <ul class="introduce-list">
+                                    <li class="introduce-item">Trang chủ</li>
+                                    <li class="introduce-item">Giới thiệu</li>
+                                    <li class="introduce-item">Tin tức</li>
+                                    <li class="introduce-item">Liên hệ</li>
+                                </ul>
+                            </div>
+                            <div class="col l-3 m-3 c-6">
+                                <div class="introduce-title">
+                                    Hướng dẫn
+                                </div>
+                                <ul class="introduce-list">
+                                    <li class="introduce-item">Hướng dẫn mua hàng</li>
+                                    <li class="introduce-item">Giao nhận và thanh toán</li>
+                                    <li class="introduce-item">Đổi trả và bảo hành</li>
+                                    <li class="introduce-item">Đăng ký thành viên</li>
+                                </ul>
+                            </div>
+                            <div class="col l-3 m-3 c-6">
+                                <div class="introduce-title">
+                                    Chính sách
+                                </div>
+                                <ul class="introduce-list">
+                                    <li class="introduce-item">Chính sách thanh toán</li>
+                                    <li class="introduce-item">Chính sách vận chuyển</li>
+                                    <li class="introduce-item">Chính sách đổi trả</li>
+                                    <li class="introduce-item">Chính sách bảo hành</li>
+                                </ul>
+                            </div>
+                            <div class="col l-3 m-3 c-6">
+                                <div class="introduce-title">
+                                    Điều khoản
+                                </div>
+                                <ul class="introduce-list">
+                                    <li class="introduce-item">Điều khoản sử dụng</li>
+                                    <li class="introduce-item">Điều khoản giao dịch</li>
+                                    <li class="introduce-item">Dịch vụ tiện ích</li>
+                                    <li class="introduce-item">Quyền sở hữu trí tuệ</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="payment-methods">
+                    <img src="//bizweb.dktcdn.net/100/047/633/themes/814480/assets/payments-method.png?1620961687291" alt="">
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="grid wide">
+                    <div class="license">
+                        <div class="license-left">
+                            <span class="license-left-special">© Bản quyền thuộc về <b>Avent Team</b></span>
+                            <span>Cung cấp bởi <span class="license-left-sapo">Sapo</span></span>
+                        </div>
+                        <div class="license-right">
+                            <ul class="license-right__list">
+                                <li class="license-right__item">Trang chủ</li>
+                                <li class="license-right__item">Giới thiệu</li>
+                                <li class="license-right__item">Sản phẩm</li>
+                                <li class="license-right__item">Tin tức</li>
+                                <li class="license-right__item">Liên hệ</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
