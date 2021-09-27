@@ -121,6 +121,13 @@
     .banner img {
         width: 100%;
     }
+    .sub-banner img{
+        width: 100%;
+    }
+    .category-title {
+        display: flex;
+        align-items: center;
+    }
 }
 
 @media (max-width: 568px) {

@@ -40,7 +40,7 @@ var slideOver1 = fullSize1 - size1*4;
 
 var main = document.getElementsByClassName('main')[0];
 console.log(main.clientWidth);
-if(main.clientWidth >= 768 && main.clientWidth <= 1024) {
+if(main.clientWidth >= 768 && main.clientWidth < 1024) {
     slideOver1 = fullSize1 - size1*2;
 }
 if(main.clientWidth < 768) {
