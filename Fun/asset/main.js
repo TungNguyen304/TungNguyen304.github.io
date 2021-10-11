@@ -1,8 +1,6 @@
 var refuseBtn = document.querySelectorAll('button')[0];
 var main = document.querySelectorAll('.main');
 var html = document.querySelector('html');
-console.log(html.clientWidth - 40)
-console.log(html.clientHeight - 40)
 
 function agree() {
     main[0].style.display = 'none';
@@ -17,10 +15,7 @@ function refuse() {
     
     do {
         refuseBtn.style.left = Math.floor(Math.random()*1200) + 'px';
-    }while(Math.floor(Math.random()*1200) >= (html.clientWidth - 40))
-
-    console.log(refuseBtn.style.top)
-    console.log(refuseBtn.style.left)
+    }while(Math.floor(Math.random()*1200) >= (html.clientWidth - 120))
 }
 
 function back() {
