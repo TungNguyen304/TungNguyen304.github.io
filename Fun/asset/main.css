@@ -51,6 +51,7 @@ html {
 .main .option button:last-child {
     color: green;
     position: relative;
+    z-index: 10;
 }
 
 .main .back {
